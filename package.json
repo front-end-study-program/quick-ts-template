@@ -5,12 +5,13 @@
   "description": "",
   "scripts": {
     "build": "unbuild",
-    "stub": "unbuild --stub",
+    "dev": "unbuild --stub",
     "test": "vitest dev",
     "test:watch": "vitest --watch",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "prepublish": "pnpm lint && vitest run --coverage",
-    "release": "pnpm prepublish && pnpm publish"
+    "release": "pnpm prepublish && pnpm publish",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

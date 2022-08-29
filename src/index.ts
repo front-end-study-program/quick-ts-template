@@ -1,3 +1,4 @@
-import { add } from './utils/add'
+import { add } from '@/utils/add'
+const a = 1
 
-add(1, 2)
+export const doddle = () => add(a, 2)
