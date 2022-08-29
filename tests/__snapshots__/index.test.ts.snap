@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`add.ts 1`] = `4`;
+
+exports[`index.ts 1`] = `3`;
